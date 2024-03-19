@@ -1,1 +1,119 @@
+{
+  "_id": "Oxford",
+  "startUrl": [
+    "https://search.savills.com/com/en/list?SearchList=Id_37465+Category_RegionCountyCountry&Tenure=GRS_T_B&SortOrder=SO_PCDD&Currency=GBP&Period=Month&ResidentialSizeUnit=SquareMeter&LandAreaUnit=Hectare&SaleableAreaUnit=SquareMeter&AvailableSizeUnit=SquareMeter&Category=GRS_CAT_FES&LocationKey=england&Shapes=W10&profile=fd2896eb-eb54-4598-bf7f-3cc0a81dfb29&tracking=true&functional=true&_gl=1*au50wj*_ga*MTk4MjI3NTQ0LjE3MTA3OTk2OTA.*_ga_LSN1Z5623G*MTcxMDg1NTE2Mi4zLjEuMTcxMDg1OTExNS4wLjAuMA.."
+  ],
+  "selectors": [
+    {
+      "id": "listing_link",
+      "parentSelectors": [
+        "_root"
+      ],
+      "type": "SelectorLink",
+      "selector": ".sv--full-width .sv-slider a",
+      "multiple": true,
+      "linkType": "linkFromHref"
+    },
+    {
+      "id": "price",
+      "parentSelectors": [
+        "listing_link"
+      ],
+      "type": "SelectorText",
+      "selector": ".sv--dark .sv-property-price__value span:nth-of-type(2)",
+      "multiple": false,
+      "regex": ""
+    },
+    {
+      "id": "no_bed",
+      "parentSelectors": [
+        "listing_link"
+      ],
+      "type": "SelectorText",
+      "selector": "div.sv--bedrooms.sv--yellow",
+      "multiple": false,
+      "regex": ""
+    },
+    {
+      "id": "no_bath",
+      "parentSelectors": [
+        "listing_link"
+      ],
+      "type": "SelectorText",
+      "selector": "div.sv--bathrooms.sv--yellow",
+      "multiple": false,
+      "regex": ""
+    },
+    {
+      "id": "no_rec",
+      "parentSelectors": [
+        "listing_link"
+      ],
+      "type": "SelectorText",
+      "selector": "div.sv--receptions.sv--yellow",
+      "multiple": false,
+      "regex": ""
+    },
+    {
+      "id": "size",
+      "parentSelectors": [
+        "listing_link"
+      ],
+      "type": "SelectorText",
+      "selector": ".sv--size.sv--yellow span",
+      "multiple": false,
+      "regex": ""
+    },
+    {
+      "id": "type",
+      "parentSelectors": [
+        "listing_link"
+      ],
+      "type": "SelectorText",
+      "selector": ".sv--residential.sv--yellow span",
+      "multiple": false,
+      "regex": ""
+    },
+    {
+      "id": "address",
+      "parentSelectors": [
+        "listing_link"
+      ],
+      "type": "SelectorText",
+      "selector": "span.sv-property-intro__address-line-2",
+      "multiple": false,
+      "regex": ""
+    },
+    {
+      "id": "EPC",
+      "parentSelectors": [
+        "listing_link"
+      ],
+      "type": "SelectorText",
+      "selector": "div.sv-property-details__section:nth-of-type(4) li:nth-of-type(2)",
+      "multiple": false,
+      "regex": ""
+    },
+    {
+      "id": "EPC1",
+      "parentSelectors": [
+        "listing_link"
+      ],
+      "type": "SelectorText",
+      "selector": "li.Bulletsstyled__BulletsListItem-sc-ilsip6-1:nth-of-type(7)",
+      "multiple": false,
+      "regex": ""
+    },
+    {
+      "id": "EPC2",
+      "parentSelectors": [
+        "listing_link"
+      ],
+      "type": "SelectorText",
+      "selector": "div.sv-property-details__section:nth-of-type(4) li:nth-of-type(2)",
+      "multiple": false,
+      "regex": ""
+    }
+  ]
+}
 
