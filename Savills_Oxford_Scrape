@@ -1,4 +1,4 @@
-### The following is a JSON code for scraping property data on Savills using webscraper.io, a Chrome extension function.
+### The following is an example JSON code for scraping Oxford property data on Savills using webscraper.io, a Chrome extension function.
 Due to the structure of the scraper, iterations for capturing different information are recommended.
 Take EPC, EPC1, and EPC2 as an example. Unlike 'price' & 'no_bed', the EPC rating for each property does not align because different agents may fill out the description of each property, and different formats may appear. 
 Selecting multiple 'targets' may increase the efficiency while scraping data. ###
