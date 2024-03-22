@@ -1,3 +1,6 @@
+### The following is a JSON scraper code for Savills properties in Oxford, UK using webscraper.io, a Chrome extension function.
+Due to the structure of the scraper, iterations for capturing different information are required.
+Take EPC, EPC1, and EPC2 as an example, the EPC rating for each property does not align due to the possibility that different agents may fill out the description of each property, and different formats may appear. Selecting multiple 'targets' can increase efficiency while scraping data.
 {
   "_id": "Oxford",
   "startUrl": [
