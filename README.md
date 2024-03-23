@@ -8,3 +8,5 @@ My family recently moved to the UK, and we're currently looking at houses in the
 everyone when making a big purchase. So I've decided to do some extra research on the area we're interested in. By collecting additional 
 
 information and gaining a broader perspective, I aim for us to reach a data-driven conclusion.
+
+### 👨🏻‍💻 Where do I get these data from & How do I deal with them
