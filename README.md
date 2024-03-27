@@ -47,3 +47,6 @@ g. Geopy
 h. Scipy
 
 i. Plotly.express
+
+## Exploratory Data Analysis (EDA)
+
