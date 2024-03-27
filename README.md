@@ -59,6 +59,7 @@ Visualization of housing price distribution: Most of our properties lie between 
 The correlations between the price and other independent variables are best shown as a heatmap and a pair plot
 
 ![](output_charts/heatmap.png)
+
 In a single box of a heatmap, max value = 1, the greater the value means the more correlated between 2 variables.
 
 While negative values may indicate that the two variables have an inverse correlation.
