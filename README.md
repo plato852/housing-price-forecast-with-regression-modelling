@@ -65,3 +65,9 @@ In a single box of a heatmap, max value = 1, the greater the value means the mor
 While negative values may indicate that the two variables have an inverse correlation.
 
 ![](output_charts/pairplot.png)
+
+I also want to know the median housing prices categorised by city. Southampton stood out prominently, with Brighton and Guildford 
+
+receiving an honourable mention.
+
+![](output_charts/median_price_by_city.png)
