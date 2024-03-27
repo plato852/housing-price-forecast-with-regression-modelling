@@ -71,3 +71,5 @@ I also want to know the median housing prices categorised by city. Southampton s
 receiving an honourable mention.
 
 ![](output_charts/median_price_by_city.png)
+
+## Regression Modelling
