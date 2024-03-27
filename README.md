@@ -49,10 +49,18 @@ h. Scipy
 i. Plotly.express
 
 ## Exploratory Data Analysis (EDA)
-The following show the statistics and the distributions of housing prices in the Southeast area
+The following figures show the statistics and the distributions of housing prices in the Southeast area
 
 Visualization of housing price distribution: Most of our properties lie between the price range of 0.5 - 2.25 MM pounds.
 ![](output_charts/distribution_chart.png)
 
 ![](output_charts/price_describe.png)
 
+The correlations between the price and other independent variables are best shown as a heatmap and a pair plot
+
+![](output_charts/heatmap.png)
+In a single box of a heatmap, max value = 1, the greater the value means the more correlated between 2 variables.
+
+While negative values may indicate that the two variables have an inverse correlation.
+
+![](output_charts/pairplot.png)
