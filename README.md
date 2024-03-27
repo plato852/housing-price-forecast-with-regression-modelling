@@ -49,4 +49,4 @@ h. Scipy
 i. Plotly.express
 
 ## Exploratory Data Analysis (EDA)
-
+![](output_charts/distribution_chart)
