@@ -54,5 +54,5 @@ The following show the statistics and the distributions of housing prices in the
 Visualization of housing price distribution: Most of our properties lie between the price range of 0.5 - 2.25 MM pounds.
 ![](output_charts/distribution_chart.png)
 
-![](output_charts/price_des.png)
+![](output_charts/price_describe.png)
 
