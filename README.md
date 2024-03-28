@@ -72,12 +72,14 @@ receiving an honourable mention.
 
 ![](output_charts/median_price_by_city.png)
 
-Reasonably, when we shift our focus on a price per sqft basis, Southampton still dominates the other cities, followed by Brighton.
+However, when we shift our focus on the price/sqft basis, we see that Guildford and Marlow are the two marginally highest-priced locations.
 
-However, it is worth mentioning that although gross prices are the same in Brighton and Guildford, the median price per sqft in Guildford
+This means that although gross prices are the highest in Southampton and Brighton, buyers are getting relatively good deals in that they are
 
-is more affordable -- 500 pounds/sqft cheaper than Brighton. Guildford property buyers tend to get a better deal by receiving decent value 
+"receiving a decent value for their input" for their homes in those two cities. In fact, if you check the `median_price_by_city` inside the
 
-for their input.
+`output_charts` folder, you'll see the median sqft of homes in each city. Brighton and Southampton feature the largest homes in addition to
+
+having the highest overall prices.
 ![](output_charts/median_price_per_sqft_city.png)
 ## Regression Modelling
