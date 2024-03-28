@@ -72,4 +72,12 @@ receiving an honourable mention.
 
 ![](output_charts/median_price_by_city.png)
 
+Reasonably, when we shift our focus on a price per sqft basis, Southampton still dominates the other cities, followed by Brighton.
+
+However, it is worth mentioning that although gross prices are the same in Brighton and Guildford, the median price per sqft in Guildford
+
+is more affordable -- 500 pounds/sqft cheaper than Brighton. Guildford property buyers tend to get a better deal by receiving decent value 
+
+for their input.
+![](output_charts/median_price_per_sqft_city.png)
 ## Regression Modelling
