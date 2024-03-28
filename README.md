@@ -16,9 +16,9 @@ using a point-and-click interface. The 113 properties' data was scraped from Sav
 
 (for the UK area).Go ahead & take a look at [this](https://webscraper.io/tutorials) link if you want to scrape data from the other websites. 
 
-Web scraping is performed by powerful software which can put a heavy load on website servers. You should make sure that you achieve the optimal rate of 
+Web scraping is performed by powerful software which can put a heavy load on website servers. You should make sure that you achieve the 
 
-the web scraping process so the bandwidth and performance of the web server will not not affected -- Happy Scraping & Scrape ethically! :)
+optimal rate of the web scraping process so the bandwidth and performance of the web server will not not affected -- Happy Scraping & Scrape ethically! :)
 
 By the way, the scraped data is shown in the `housing_data` folder, feel free to check them out if you're curious about the format.  
 
