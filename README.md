@@ -10,11 +10,9 @@ when making a big purchase. So, I've decided to do some extra research on the ar
 and gaining a broader perspective, I aim for us to reach a data-driven conclusion.
 
 ## 👨🏻‍💻 Where do I get these data & How do I deal with them
-Scraping Housing Data [webscraper.io](https://webscraper.io/): This enabled me to conveniently gather different pieces of information from each 
+Scraping Housing Data [webscraper.io](https://webscraper.io/): This enabled me to conveniently gather different pieces of information from each listing 
 
-listing using a point-and-click interface. The 113 properties' data was scraped from Savills -- the most informative real estate website I've found 
-
-online (for the UK area).
+using a point-and-click interface. The 113 properties' data was scraped from Savills -- the most informative real estate website I've found online (for the UK area).
 
 
 Go ahead & take a look at [this](https://webscraper.io/tutorials) link if you want to scrape data from the other websites. Web scraping is performed 
