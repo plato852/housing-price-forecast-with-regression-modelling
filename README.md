@@ -47,7 +47,7 @@ i. Plotly.express
 ## Exploratory Data Analysis (EDA)
 The following figures show the statistics and the distributions of housing prices in the Southeast area
 
-Visualization of housing price distribution: Most of our properties lie between the price range of 0.5 - 2.25 MM pounds.
+Visualization of housing price distribution: The majority of our properties fall within the price range of 500,000 to 2.25 million pounds.
 ![](output_charts/distribution_chart.png)
 
 ![](output_charts/price_describe.png)
