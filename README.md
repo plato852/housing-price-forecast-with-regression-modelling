@@ -23,9 +23,9 @@ so the bandwidth and performance of the web server will not not affected -- Happ
 By the way, the scraped data is shown in the `housing_data` folder, feel free to check them out if you're curious about the format.  
 
 ## Installation guide
-Python, Jupyter Notebook, and -pip install every toolkit mentioned in the notebook are everything you need. Download the `SE_housing.ipynb` 
+Python, Jupyter Notebook, and -pip install every toolkit mentioned in the notebook are everything you need. Download the 
 
-file and all the .csv files in the `housing_data` file and run them in the notebook. Here are the libraries used: 
+`SE_housing.ipynb` file and all the .csv files in the `housing_data` file and run them in the notebook. Here are the libraries used: 
 a. Pandas
 
 b. Scikit Learn
