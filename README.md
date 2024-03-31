@@ -22,7 +22,7 @@ optimal rate of the web scraping process so the bandwidth and performance of the
 
 By the way, the scraped data is shown in the `housing_data` folder, feel free to check them out if you're curious about the format.  
 
-## Installation guide
+## ⚙️ Installation guide
 Python, Jupyter Notebook, and -pip install every toolkit mentioned in the notebook are everything you need. Download the 
 
 `SE_housing.ipynb` file and all the .csv files in the `housing_data` file and run them in the notebook. Here are the libraries used: 
@@ -44,7 +44,7 @@ h. Scipy
 
 i. Plotly.express
 
-## Exploratory Data Analysis (EDA)
+## 🔬 Exploratory Data Analysis (EDA)
 The following figures show the statistics and the distributions of housing prices in the Southeast area
 
 Visualization of housing price distribution: The majority of our properties fall within the price range of 500,000 to 2.25 million pounds.
@@ -78,4 +78,5 @@ This means that although gross prices are the highest in Southampton and Brighto
 
 having the highest overall prices.
 ![](output_charts/median_price_per_sqft_city.png)
-## Regression Modelling
+## 𝌭 Regression Modelling for housing price prediction
+...
