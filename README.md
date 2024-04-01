@@ -84,7 +84,7 @@ In this project, we adopted multiple linear regression as the prediction for the
 
 The calculation involved is more complex than simple linear regression, but thanks to the Python `sci-kit learn` package we can complete the analysis in a comparatively easy manner. 
 
-For a prediction model to be considered valid, it must satisfy five assumptions:
+For a regression model to be considered valid, it must satisfy five assumptions:
 
 a) Linear relationships between IV and DV
 B) The residuals are normally distributed (Normality of Residuals)
@@ -92,6 +92,17 @@ c) Independence observation assumption
 d) Homosedaticity (Variation of errors is constant)
 e) No 2 IV can be linearly related to each other (or No Multicollinearity) 
 
-After applying suitable cleaning and transformation of data, linear relationships between the DV `price` and the other IVs can be observed from the `pairplot.png`. By observing a straight line from the quantile-quantile plot `QQ_plot.png`, we can ensure the normality between the residuals. Utilizing a robust regression method to address the independence observation assumption and ensuring that the Durbin-Watson amount is approximately 2 to verify the homoscedasticity. Verifying the variance inflation factors of coefficients is less than 5 proving no multicollinearity from the `VIF.png`, all assumptions have been addressed.
+After applying suitable cleaning and data transformation, linear relationships between the DV `price` and the other IVs can be observed from the `pairplot.png`. We can ensure the normality between the residuals by observing a straight line from the quantile-quantile plot `QQ_plot.png`. Utilizing a robust regression method to address the independence observation assumption and ensuring that the Durbin-Watson amount is approximately 2 to verify the homoscedasticity. Verifying the variance inflation factors of coefficients is less than 5 proving no multicollinearity from the `VIF.png`, all assumptions have been considered.
 
+Five distinct regression models were tested including Linear, Robust, Ridge, Lasso, and Elastic Net Regression. You can envision it like this: each model employs its own formula and technique to forecast housing prices using the provided independent variables (IVs). By gathering the resulting indices, particularly RMSE and R2 Square values, we can ascertain which model produces the most accurate 'fit line' among them all, and then we adhere to that particular model. Here is the evaluation of the 5 models:
+
+![](output_charts/regression_result.png)
+
+Focusing on RMSE as an error matric, we can see Ridge and Robust regression best in terms of RMSE, Lasso regression the worst:
+
+![](output_charts/RMSE.png)
+
+Focusing on R2 Square as a goodness of fit measure, we can see Ridge and Robust regression best in terms of RMSE, Lasso regression the worst, consolidates the result from RMSE:
+
+![](output_charts/R2square.png)
 
