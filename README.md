@@ -15,9 +15,9 @@ Web scraping is performed by powerful software which can put a heavy load on web
 By the way, the scraped data is shown in the `housing_data` folder, feel free to check them out if you're curious about the format.  
 
 ## ⚙️ Installation guide
-Python, Jupyter Notebook, and -pip install every toolkit mentioned in the notebook are everything you need. Download the 
+Python, Jupyter Notebook, and -pip install every toolkit mentioned in the notebook are everything you need. 
 
-`SE_housing.ipynb` file and all the .csv files in the `housing_data` file and run them in the notebook. Here are the libraries used: 
+Download the `SE_housing.ipynb` file and all the .csv files in the `housing_data` file and run them in the notebook. Here are the libraries used: 
 
 a. Pandas
 
