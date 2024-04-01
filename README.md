@@ -80,8 +80,18 @@ For someone without a mathematical background, you can interpret this equation s
 
 We can also comprehend it as a straight-line equation when $β_0$ is the intercept and $β_1$ is the slope of the line.
 
-In this project, we adopted multiple linear regression as the prediction for the dependent variable `price`, as it is a dependent variable affected by more than one independent variable, which can be represented as 
+In this project, we adopted multiple linear regression as the prediction for the dependent variable `price`, as it is a continuous dependent variable (DV) affected by more than one independent variable (IV), which can be represented as 
 
 $A = β_0 + β_1*B_1 + β_2*B_2 + ... + β_n*B_n$
 
-The calculation involved is more complex than simple linear regression, but thanks to the Python `sci-kit learn` package we can complete the analysis in a comparatively easier manner.  
+The calculation involved is more complex than simple linear regression, but thanks to the Python `sci-kit learn` package we can complete the analysis in a comparatively easier manner. 
+
+For a prediction model to be considered valid, it must satisfy five assumptions:
+
+a) Linear relationships between IV and DV
+B) The residuals are normally distributed (Normality of Residuals)
+c) Independence observation assumption
+d) Homosedaticity (Variation of errors is constant)
+e) No 2 IV can be linearly related to each other (or No Multicollinearity) 
+
+After applying suitable cleaning and transformation of data, linear relationships between the DV `price` and the other IVs can be observed from the `pairplot.png`. By observing a straight line from the quantile-quantile plot `QQ_plot.png`, we can ensure the normality between the residuals. Utilizing a robust regression method to address the independence observation assumption and ensuring that the Durbin-Watson amount is approximately 2 to verify the homoscedasticity. Verifying the variance inflation factors of coefficients is less than 5 proving no multicollinearity from the `VIF.png`, all assumptions have been addressed.
