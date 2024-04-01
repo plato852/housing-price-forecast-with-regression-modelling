@@ -72,4 +72,5 @@ This means that although gross prices are the highest in Southampton and Brighto
 having the highest overall prices.
 ![](output_charts/median_price_per_sqft_city.png)
 ## 𝌭 Regression Modelling for housing price prediction
-...
+Simple linear regression:
+When variable A is correlated to a single variable B, it can be represented as: $A = β_0 + β_1*B_1$
