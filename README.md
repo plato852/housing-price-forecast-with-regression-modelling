@@ -95,3 +95,5 @@ d) Homosedaticity (Variation of errors is constant)
 e) No 2 IV can be linearly related to each other (or No Multicollinearity) 
 
 After applying suitable cleaning and transformation of data, linear relationships between the DV `price` and the other IVs can be observed from the `pairplot.png`. By observing a straight line from the quantile-quantile plot `QQ_plot.png`, we can ensure the normality between the residuals. Utilizing a robust regression method to address the independence observation assumption and ensuring that the Durbin-Watson amount is approximately 2 to verify the homoscedasticity. Verifying the variance inflation factors of coefficients is less than 5 proving no multicollinearity from the `VIF.png`, all assumptions have been addressed.
+
+
