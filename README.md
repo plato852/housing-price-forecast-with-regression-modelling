@@ -73,8 +73,15 @@ having the highest overall prices.
 ![](output_charts/median_price_per_sqft_city.png)
 ## 𝌭 Regression Modelling for housing price prediction
 Simple linear regression:
+
 When variable A is correlated to a single variable B, it can be represented as $A = β_0 + β_1*B_1$
 
 For someone without a mathematical background, you can interpret this equation simply as when one variable increases, another follows, and vice versa. 
 
 We can also comprehend it as a straight-line equation when $β_0$ is the intercept and $β_1$ is the slope of the line.
+
+In this project, we adopted multiple linear regression as the prediction for the dependent variable `price`, as it is a dependent variable affected by more than one independent variable, which can be represented as 
+
+$A = β_0 + β_1*B_1 + β_2*B_2 + ... + β_n*B_n$
+
+The calculation involved is more complex than simple linear regression, but thanks to the Python `sci-kit learn` package we can complete the analysis in a comparatively easier manner.  
