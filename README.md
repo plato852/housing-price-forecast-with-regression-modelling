@@ -82,7 +82,7 @@ We can also comprehend it as a straight-line equation when $β_0$ is the interce
 
 In this project, we adopted multiple linear regression as the prediction for the dependent variable `price`, as it is a continuous dependent variable (DV) affected by more than one independent variable (IV), which can be represented as $`A = β_0 + β_1*B_1 + β_2*B_2 + ... + β_n*B_n`$
 
-The calculation involved is more complex than simple linear regression, but thanks to the Python `sci-kit learn` package we can complete the analysis in a comparatively easier manner. 
+The calculation involved is more complex than simple linear regression, but thanks to the Python `sci-kit learn` package we can complete the analysis in a comparatively easy manner. 
 
 For a prediction model to be considered valid, it must satisfy five assumptions:
 
