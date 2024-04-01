@@ -73,4 +73,8 @@ having the highest overall prices.
 ![](output_charts/median_price_per_sqft_city.png)
 ## 𝌭 Regression Modelling for housing price prediction
 Simple linear regression:
-When variable A is correlated to a single variable B, it can be represented as: $A = β_0 + β_1*B_1$
+When variable A is correlated to a single variable B, it can be represented as $A = β_0 + β_1*B_1$
+
+For someone without a mathematical background, you can interpret this equation simply as when one variable increases, another follows, and vice versa. 
+
+We can also comprehend it as a straight-line equation when $β_0$ is the intercept and $β_1$ is the slope of the line.
