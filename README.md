@@ -111,9 +111,7 @@ As mentioned previously `const` can be neglected as it is just the order of the 
 
 ![](output_charts/lin_reg_coeff.png)
 
-For our best model ridge regression, the results are as shown below (nearest 1 d.c.). Overall pretty similar to the results as shown in Linear Regression, but most coefficients tend to be smaller: 
+For our best model ridge regression, overall pretty similar to the results as shown in Linear Regression, but most coefficients tend to be smaller except no. of bedroom. We can see an increase in 1 sqft resulting in a £522.4 increase in the property price, an extra bedroom resulting in £15.3k increase, an extra bathroom resulting in £82.4k increase, and an increase in £1 in the median income of the house's city leads to a £17.6 increase of the property.: 
 
-sqft: 522.4
-no_bed: 12577.3
-no_bath: 82399.4
-City_med_income: 17.6
+![](output_charts/ridge_reg_coeff.png)
+
