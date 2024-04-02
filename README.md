@@ -55,22 +55,15 @@ While negative values may indicate that the two variables have an inverse correl
 
 ![](output_charts/pairplot.png)
 
-I also want to know the median housing prices categorised by city. Southampton stood out prominently, with Brighton and Guildford 
-
-receiving an honourable mention.
+I also want to know the median housing prices categorised by city. Southampton stood out prominently, with Brighton and Guildford receiving an honourable mention.
 
 ![](output_charts/median_price_by_city.png)
 
 However, when we shift our focus on the price/sqft basis, we see that Guildford and Marlow are the two marginally highest-priced locations.
 
-This means that although gross prices are the highest in Southampton and Brighton, buyers are getting relatively good deals in that they are
-
-"receiving a decent value for their input" for their homes in those two cities. In fact, if you check the `median_price_by_city` inside the
-
-`output_charts` folder, you'll see the median sqft of homes in each city. Brighton and Southampton feature the largest homes in addition to
-
-having the highest overall prices.
+This means that although gross prices are the highest in Southampton and Brighton, buyers are getting relatively good deals in that they are "receiving a decent value for their input" for their homes in those two cities. In fact, if you check the `median_price_by_city` inside the `output_charts` folder, you'll see the median sqft of homes in each city. Brighton and Southampton feature the largest homes in addition to having the highest overall prices.
 ![](output_charts/median_price_per_sqft_city.png)
+
 ## 𝌭 Regression Modelling for housing price prediction
 Simple linear regression:
 
