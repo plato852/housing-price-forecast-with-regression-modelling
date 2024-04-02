@@ -108,3 +108,4 @@ For our best model ridge regression, overall pretty similar to the results as sh
 
 ![](output_charts/ridge_reg_coeff.png)
 
+## Reflection and Optimization
