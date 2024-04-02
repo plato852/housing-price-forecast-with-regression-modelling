@@ -106,3 +106,14 @@ Focusing on R2 Square as a goodness of fit measure, we can see Ridge and Robust 
 
 ![](output_charts/R2square.png)
 
+Linear regression is the fundamental model of the other 4 models, and the prediction results are shown below: 
+As mentioned previously `const` can be neglected as it is just the order of the properties (e.g.: 1,2,3...) we can see an increase in 1 sqft resulting in a £541.7 increase in the property price, an extra bedroom resulting in £14.4k increase, an extra bathroom resulting in £87.5k increase, and an increase in £1 in the median income of the house's city leads to a £19.3 increase of the property.
+
+![](output_charts/lin_reg_coeff.png)
+
+For our best model ridge regression, the results are as shown below (nearest 1 d.c.). Overall pretty similar to the results as shown in Linear Regression, but most coefficients tend to be smaller: 
+
+sqft: 522.4
+no_bed: 12577.3
+no_bath: 82399.4
+City_med_income: 17.6
