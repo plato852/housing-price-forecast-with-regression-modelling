@@ -1,4 +1,4 @@
-# 🏘 Housing prices forecast -- UK 🇬🇧 (southeast) [updating daily!]
+# 🏘 Housing prices forecast -- UK 🇬🇧 (southeast) 
 ```
 Forecasting housing prices in the UK South Eastern Area using the data scraped from Savills
 ```
